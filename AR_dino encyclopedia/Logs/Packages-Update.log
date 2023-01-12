@@ -1,0 +1,11 @@
+
+=== Sun Sep 11 07:41:34 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.9.0 to 1.17.2
+  com.unity.ide.visualstudio from version 2.0.11 to 2.0.16
+  com.unity.ide.vscode from version 1.2.3 to 1.2.5
+  com.unity.test-framework from version 1.1.29 to 1.1.31
