@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="keywords" content="Document" />
+        <meta name="description" content="Your Description..." />
+        <title>VARK</title>
+        <link
+            rel="stylesheet"
+            href="resources/swiper js/swiper-bundle.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="resources/css/loader.css" />
+        <link rel="stylesheet" href="resources/css/hamburger.css" />
+        <link rel="stylesheet" href="resources/css/home.css" />
+        <link rel="stylesheet" href="resources/css/about.css" />
+        
+     
+        <link rel="stylesheet" href="resources/css/portfolio.css" />
+       
+     
+        <link rel="stylesheet" href="resources/css/blog.css" />
+        <link rel="stylesheet" href="resources/css/contact.css" />
+         
+        <link href="resources/mapbox-gl/mapbox-gl.css" rel="stylesheet" />
+        <link rel="stylesheet" href="resources/css/style.css" />
+        <link
+            rel="shortcut icon"
+            href="resources/img/favicon.ico"
+            type="image/x-icon"
+        />
+<style>
+
+</style>
+    </head>
+    <body onload="loaded()">
+        <div class="loader">
+            <div class="c c1"></div>
+            <div class="c c2"></div>
+            <div class="c c3"></div>
+            <div class="c c4"></div>
+            <div class="c c5"></div>
+            <div class="c c6"></div>
+<div class="c c7"></div>
+        </div>
+        <script>
+            let loader = document.querySelector(".loader");
+            function loaded() {
+                loader.classList.add("remove");
+                setTimeout(() => {
+                    loader.style.display = "none";
+                }, 1000);
+            }
+        </script>
+        <!-- HAMBURGER MENU BUTTON (responsively visible) -->
+        <div class="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <!-- THE REAL NAVIGATION -->
+        <nav class="navigation">
+            <h1>
+                V.A.R.K
+                <div></div>
+                <div></div>
+            </h1>
+            <ul>
+                <li><a href="#" onclick="home()">home</a></li>
+                <li>
+                    <a
+                        href="#"
+                        onclick="about(); animate3.play(); animate4.play();"
+                        >about</a
+                    >
+                </li>
+               
+                <li><a href="#" onclick="portfolio()">Self-Assessment</a></li>
+                <li><a href="#" onclick="services(); animate6.play();">Login/Sign-up</a></li>
+<li><a href="#" onclick="blog()">FAQs</a></li>
+                
+                
+                <li>
+                    <a href="#" onclick="contact(); animate5.play()">contact</a>
+                </li>
+
+            </ul>
+            <p>&copy;Made by NEPtune.</p>
+        </nav>
+
+        <div class="container">
+            <div class="layer layer1 active">
+                <div class="home main">
+                    <div class="canvas_container">
+                        <canvas></canvas>
+                    </div>
+                    <div class="content-for-home">
+                        <div class="img-container"></div>
+                        <h1 align="center">V.A.R.K</h1>
+<a href="C:\Users\ADMIN\Downloads\cs\pomodorotimer.html" style="background:coral;">Pomodoro Timer</a>
+<a href="C:\Users\ADMIN\Downloads\ca.html" style="background:coral;">Text-speech</a>
+<a href="C:\Users\ADMIN\Desktop\vark\run\chatt.html" style="background:coral;">Chatbot</a>
+
+                  
+
+                        <div class="social-icons">
+                            <div class="s-icon">
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <div class="s-name">Facebook</div>
+                            </div>
+                            <div class="s-icon">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <div class="s-name">Twitter</div>
+                            </div>
+                            
+                            <div class="s-icon">
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <div class="s-name">Instagram</div>
+                            </div>
+                            <div class="s-icon">
+                                <a href="#">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                                <div class="s-name">Email</div>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+</div>
+            
+         <div class="layer layer2">
+                <div class="about main">
+                   
+                    <!-- REAL CONTENT -->
+                    <div class="wrapper">
+                        <div class="face face1">
+                            <div class="content">
+                                <h1 style="padding:0 30px 0 40px;color:coral">VARK Modalities</h1>
+                                <p class="text">
+                                   The acronym VARK stands for Visual, Aural, Read/write, and Kinesthetic sensory modalities that are used for learning information. Fleming and Mills (1992) suggested four modalities that seemed to reflect the experiences of the students and teachers. Although there is some overlap between them they are defined as follows. For a detailed description of the initial construction and limitations of VARK, and for other works on learning styles, see the bibliography and the seminal article.
+                                </p>
+                               
+                            </div>
+                        </div>
+                        <div class="face face2"></div>
+                    </div>
+
+                    <!-- THE NAVIGATION OF ABOUT -->
+                    <nav class="about_nav">
+                        <ul>
+                            <li>
+                                <a class="active" href="#" data-text="one"
+                                    >Visual</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" data-text="two">Auditory</a>
+                            </li>
+                            <li>
+                                <a href="#" data-text="three">Kinesthetic</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="about_container">
+                        <!-- SKILL BOX -->
+                        
+                                
+                                <p style="padding:0 10px 0 20px;">This preference includes the depiction of information in maps, spider diagrams, charts, graphs, flow charts, labelled diagrams, and all the symbolic arrows, circles, hierarchies and other devices, that people use to represent what could have been presented in words. This mode could have been called Graphic (G) as that better explains what it covers. It does NOT include still pictures or photographs of reality, movies, videos or PowerPoint. It does include designs, whitespace, patterns, shapes and the different formats that are used to highlight and convey information. When a whiteboard is used to draw a diagram with meaningful symbols for the relationship between different things that will be helpful for those with a Visual preference. It must be more than mere words in boxes that would be helpful to those who have a Read/write preference.</p>
+                                
+                        
+                            
+                     
+
+                        <!-- EXPERIENCE -->
+                        <div class="experienc">
+                            <p style="padding:0 10px 0 20px;">This perceptual mode describes a preference for information that is “heard or spoken.” Learners who have this as their main preference report that they learn best from lectures, group discussion, radio, email, using mobile phones, speaking, web-chat and talking things through. Email is included here because; although it is text and could be included in the Read/write category (below), it is often written in chat-style with abbreviations, colloquial terms, slang and non-formal language. The Aural preference includes talking out loud as well as talking to oneself. Often people with this preference want to sort things out by speaking first, rather than sorting out their ideas and then speaking. They may say again what has already been said, or ask an obvious and previously answered question. They have need to say it themselves and they learn through saying it – their way.</p>
+                            
+                        </div>
+                        <div class="educatio">
+                            <p style="padding:0 10px 0 20px;">By definition, this modality refers to the “perceptual preference related to the use of experience and practice (simulated or real).” Although such an experience may invoke other modalities, the key is that people who prefer this mode are connected to reality, “either through concrete personal experiences, examples, practice or simulation” [See Fleming & Mills, 1992, pp. 140-141]. It includes demonstrations, simulations, videos and movies of “real” things, as well as case studies, practice and applications. The key is the reality or concrete nature of the example. If it can be grasped, held, tasted, or felt it will probably be included. People with this as a strong preference learn from the experience of doing something and they value their own background of experiences and less so, the experiences of others. It is possible to write or speak Kinesthetically if the topic is strongly based in reality. An assignment that requires the details of who will do what and when, is suited to those with this preference, as is a case study or a working example of what is intended or proposed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+ 
+
+ <div class="layer layer4">
+         
+
+<div class="form">
+      
+      <ul class="tab-group">
+        <li class="tab active"><a href="#signup">Sign Up</a></li>
+        <li class="tab"><a href="#login">Log In</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="signup">   
+          <h1>Sign Up for Free</h1>
+          
+          <form action="/" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" />
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <button type="submit" class="button button-block"/>Get Started</button>
+          
+          </form>
+
+        </div>
+        
+        <div id="login">   
+          <h1>Welcome Back!</h1>
+          
+          <form action="/" method="post">
+          
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+          
+          <button class="button button-block"/>Log In</button>
+          
+          </form>
+
+        </div>
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
+</div>
+ <div class="layer layer3">
+
+<h1 style="padding:0 100px 0 500px;">Self assessment</h1>
+<p style="font-size:20px; padding:0 30px 0 30px;">Many people use a combination of learning styles, whereas others learn best by using just one. Want to know your learning style? You're just 20 questions away from finding out!</p>
+<div class="scroll" style="padding:0 20px 0 30px;font-size:20px;">
+<br><br><br>
+<div style="text-align:center;">
+<form method="POST" action="" target=_blank>
+Gender:<br><input type="radio" id="male" name="gender" value="0">Male<br>
+<input type="radio" id="female" name="gender" value="1"><label for="female">Female</label><br/><br>
+Age:<br>
+<input type="number" name="age" min="0" oninput="validity.valid||(value='');" placeholder="enter ur age">
+</div>
+<br><br>
+<div class="wrap">
+  
+    <label class="statement1">1.I learn better by reading what the teacher writes on the chalkboard.</label>
+    <ul class='q1'>
+      <li>
+        <input type="radio" name="q1" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q1" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q1" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q1" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q1" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<br><br><br>
+    <label class="statement2">2.When I read instructions, I remember them better.</label>
+    <ul class='q2'>
+      <li>
+        <input type="radio" name="q2" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q2" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q2" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q2" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q2" value="1">
+        <label>Strongly disagree</label>
+      </li><br><br><br>
+    </ul>
+    <label class="statement3">3.I understand better when I read instructions..</label>
+    <ul class='likert3'>
+      <li>
+        <input type="radio" name="likert3" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q3" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q3" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q3" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q3" value="1">
+        <label>Strongly disagree</label>
+      </li><br><br><br>
+    </ul>
+    <label class="statement4">4.I learn better by reading than by listening to someone.</label>
+    <ul class='likert4'>
+      <li>
+        <input type="radio" name="q4" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q4" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q4" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q4" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q4" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul><br><br><br>
+<label class="statement5">5.I learn more by reading textbooks than by listening to lectures.</label>
+    <ul class='likert5'>
+      <li>
+        <input type="radio" name="q5" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q5" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q5" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q5" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q5" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">6.When the teacher tells me the instructions I understand better.</label>
+    <ul class='likert6'>
+      <li>
+        <input type="radio" name="q6" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q6" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q6" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q6" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q6" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">7.When someone tells me how to do something in class, I learn it better.</label>
+    <ul class='likert7'>
+      <li>
+        <input type="radio" name="q7" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q7" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q7" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q7" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q7" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">8.I remember things I have heard in class better than things I have read.</label>
+    <ul class='likert8'>
+      <li>
+        <input type="radio" name="q8" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q8" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q8" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q8" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q8" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">9.I learn better in class when the teacher gives a lecture.</label>
+    <ul class='likert9'>
+      <li>
+        <input type="radio" name="q9" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q9" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q9" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q9" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert9" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">10.I learn better in class when I listen to someone.</label>
+    <ul class='likert10'>
+      <li>
+        <input type="radio" name="q10" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q10" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q10" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q10" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q10" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">11.I prefer to learn by doing something in class.</label>
+    <ul class='likert11'>
+      <li>
+        <input type="radio" name="q11" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q11" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q11" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q11" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q11" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">12.When I do things in class, I learn better.</label>
+    <ul class='likert12'>
+      <li>
+        <input type="radio" name="q12" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q12" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q12" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q12" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q12" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">13.I enjoy learning in class by doing experiments.</label>
+    <ul class='likert13'>
+      <li>
+        <input type="radio" name="q13" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q13" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q13" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q13" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q13" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">14.I understand things better in class when I participate in role-playing.</label>
+    <ul class='likert14'>
+      <li>
+        <input type="radio" name="q14" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q14" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q14" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q14" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q14" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<label class="statement">15.I understand things better in class when I participate in role-playing.</label>
+    <ul class='likert15'>
+      <li>
+        <input type="radio" name="q15" value="5">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q15" value="4">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="q15" value="3">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="q15" value="2">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="q15" value="1">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+<a href="C:\Users\ADMIN\Desktop\vark\run\results.html">Submit
+    </a>
+  </form>
+</div>
+<div id="result"></div>
+
+
+</div>
+
+                </div>
+           
+
+
+
+
+
+
+
+
+
+
+ <div class="layer layer5">
+                <div class="testimonial">
+                    <h1>
+                        <span>Frequenty asked Questions</span>
+                    </h1>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="C:\Users\ADMIN\Downloads\cs\1000_F_223898038_eX5CaB4fINDeRab1VOZrEkoNr9Yezs4U.jpg" alt="" />
+                                <h4>How can I find people with same technical interests as me for a project?</h4>
+                                <div class="rating">
+                                    
+                                </div>
+                                <p>
+                                    <span></span>Please click on fellowship and follow further instructions.
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4></h4>
+                                <div class="rating">
+                                    
+                                </div>
+                                <p>
+                                    <span></span>
+                                   
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4></h4>
+                                <div class="rating">
+                                   
+                                </div>
+                                <p>
+                                    <span></span>
+                                   
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4></h4>
+                                <div class="rating">
+                                    
+                                </div>
+                                <p>
+                                    <span></span>
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4></h4>
+                                <div class="rating">
+                                   
+                                </div>
+                                <p>
+                                    <span></span>
+                                
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="resources/img/favicon.ico" alt="" />
+                                <h4></h4>
+                                <div class="rating">
+                                </div>
+                                <p>
+                                    <span></span>
+                                    etion make statistical analysis very difficult.The reliability estimates for the scores of the VARK sub-scales were 0.85, 0.82, 0.84 and 0.77 for the Visual, Aural, Read/write and Kinesthetic sub-scales, respectively. 
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layer layer6">
+                <div class="contact_us">
+                    <div id="map"></div>
+                    <address class="info_container">
+                        <div class="info info1">
+                            <i class="fas fa-phone-alt"></i>
+                            <span class="iname">Phone</span>
+                            <a href="tel:+8800000000000">+8800000000000</a>
+                            <a href="tel:+8811111111111">+8811111111111</a>
+                        </div>
+                        <div class="info info2">
+                            <i class="fas fa-home"></i>
+                            <span class="iname">Address</span>
+                            <a
+                                href="https://www.google.com/maps/place/Sherpur+Town+Hall/@25.0136644,90.0140045,355m/data=!3m1!1e3!4m5!3m4!1s0x3757d6136d793499:0x8c22620664dc6a37!8m2!3d25.0156371!4d90.0168872"
+                            >
+                                <h3>PES University</h3>
+                                <span>Bengaluru</span><br />
+                                <span>India</span>
+                            </a>
+                        </div>
+                        <div class="info info3">
+                            <i class="fas fa-envelope"></i>
+                            <span class="iname">Email</span>
+                            <a href="mailto:email1.gmail.com"
+                                >ajfbn@gmail.com</a
+                            >
+                            <a href="mailto:email2.gmail.com"
+                                >fjhb@gmail.com</a
+                            >
+                        </div>
+                    </address>
+
+                    <form action="#" method="post">
+                        <h1>Get In Touch</h1>
+                        <div class="inp_field">
+                            <i class="fas fa-user"></i>
+                            <input
+                                type="text"
+                                name="name"
+                                class="fname"
+                                id="fname"
+                                placeholder="Full Name"
+                                required
+                            />
+                        </div>
+                        <div class="inp_field">
+                            <i class="fas fa-envelope"></i>
+                            <input
+                                type="email"
+                                name="email"
+                                class="email"
+                                id="email"
+                                placeholder="Email"
+                                required
+                            />
+                        </div>
+                        <div class="inp_field">
+                            <i class="fas fa-angle-double-right"></i>
+                            <input
+                                type="text"
+                                name="subject"
+                                class="subject"
+                                id="subject"
+                                placeholder="Subject"
+                                required
+                            />
+                        </div>
+                        <textarea
+                            name="message"
+                            cols="30"
+                            rows="5"
+                            class="message"
+                            id="message"
+                            placeholder="Message"
+                            required
+                        ></textarea>
+                        <button class="submit" id="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+<div class="layer layer7">
+<p>hello</p>
+</div>
+        </div>
+
+        <!-----------------JQUERY {https://jquery.com/} [USED IN portfolio.js]----------------->
+        <script src="resources/js/jquery.min.js"></script>
+        <!-----------------MIX IT UP {https://www.kunkalabs.com/mixitup/} [USED IN portfolio.js]----------------->
+        <script src="resources/js/mixitup.min.js"></script>
+        <!-----------------SWIPER JS {https://swiperjs.com/} [USED IN portfolio.js, blog.js]----------------->
+        <script src="resources/swiper js/swiper-bundle.min.js"></script>
+        <!-----------------MAPBOX GL {https://www.mapbox.com/} [USED IN contact.js]----------------->
+        <script src="resources/mapbox-gl/mapbox-gl.js"></script>
+        <!-----------------EMAIL JS {https://www.emailjs.com/} [USED IN contact.js]----------------->
+        <script src="resources/js/email.min.js"></script>
+        <!-----------------ADDITIONAL SCRIPT FOR EMAIL JS----------------->
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("user_5OMETIDQ2Nm9qBMtaFNz4");
+            })();
+        </script>
+        <!-----------------VANILLA TILT JS {https://micku7zu.github.io/vanilla-tilt.js/}----------------->
+        <script src="resources/js/vanilla-tilt.min.js"></script>
+        <!-----------------ANIME JS {https://animejs.com/} [USED LOCALLY.]----------------->
+        <script src="resources/js/anime.min.js"></script>
+        <!-----------------LOCAL (HOME)----------------->
+        <script src="resources/js/home.js"></script>
+        <!-----------------LOCAL (ABOUT)----------------->
+        <script src="resources/js/about.js"></script>
+        <!-----------------LOCAL (SERVICES)----------------->
+        <script src="resources/js/services.js"></script>
+        <!-----------------LOCAL (PORTFOLIO)----------------->
+        <script src="resources/js/portfolio.js"></script>
+        <!-----------------LOCAL (BLOG)----------------->
+        <script src="resources/js/blog.js"></script>
+        <!-----------------LOCAL (CONTACT)----------------->
+        <script src="resources/js/contact.js"></script>
+        <script src="resources/js/content.js"></script>
+        
+        <!-----------------LOCAL (MAIN FILE)----------------->
+        <script src="resources/js/main.js"></script>
+
+        <!-----------------LOCAL (MAIN FILE { USED TO ANIMATE WEBPAGE.})----------------->
+        <script>
+            const animate1 = anime.timeline({
+                targets: ".circle",
+                loop: true,
+                duration: 2000,
+                direction: "alternate",
+                easing: "easeInOutQuad",
+            });
+            animate1.add({
+                translateX: 350,
+            });
+
+            let dot = document.querySelectorAll(".dot");
+            for (let i = 0; i < dot.length; i++) {
+                const ind = dot[i];
+                const animate2 = anime.timeline({
+                    targets: ind,
+                    loop: true,
+                    direction: "alternate",
+                    delay: i * 100,
+                });
+                animate2.add({
+                    scale: 2,
+                });
+            }
+
+            let span = document.querySelectorAll(".content .text span");
+            const animate3 = anime.timeline({
+                targets: span,
+                easing: "easeInOutExpo",
+                delay: anime.stagger(20, { direction: "reverse" }),
+                direction: "reverse",
+                autoplay: false,
+            });
+
+            animate3.add({
+                rotate: () => {
+                    return anime.random(-360, 360);
+                },
+                translateX: () => {
+                    return anime.random(-500, 500);
+                },
+                translateY: () => {
+                    return anime.random(-500, 500);
+                },
+                duration: 3000,
+            });
+
+            const animate4 = anime({
+                targets: ".button",
+                scale: [0, 1],
+                delay: anime.stagger(200, { start: 7000 }),
+                autoplay: false,
+            });
+
+            const animate5 = anime({
+                targets: [
+                    document.querySelectorAll(".info"),
+                    document.querySelectorAll(".inp_field"),
+                    ".message",
+                    ".submit",
+                ],
+                translateY: [50, 0],
+                rotateX: [90, 0],
+                opacity: [0, 1],
+                delay: anime.stagger(300, { start: 1000 }),
+                duration: 750,
+                autoplay: false,
+                easing: "easeOutQuint",
+            });
+            
+            const animate6 = anime({
+                targets: ['.services .t_dummy', '.services .hero-text'],
+                duration: 1000,
+                scaleX: [0, 1],
+                delay: anime.stagger(300, {start: 1000}),
+                autoplay: false,
+            });
+
+            function resize() {
+                if (window.innerWidth <= 632) {
+                    animate5.play();
+                    animate3.play();
+                    animate4.play();
+                    animate6.play();
+                }
+            }
+            resize();
+            window.addEventListener("resize", resize);
+        </script>
+
+    </body>
+</html>

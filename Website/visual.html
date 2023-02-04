@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" href="visual.css">
+</head>
+<body>
+<h1>Visual </h1>
+<p>
+You are a Visual Learner!<br>
+
+Here are some options for you.<br>
+
+XR <br>
+
+Video Recommender<br>
+
+https://openai.com/blog/dall-e/<br>
+
+
+
+Here’s the link to the discord group. You can interact with people belonging to your learning style and form study groups and meetings with them. </p>
+
+<a href="https://discord.gg/sTFREYn7"Discord</a>
+
+<?php function php_func(){
+shell_exec("python gazedet.py");
+header('Location: https://localhost:index.html?success=true');
+}
+?>
+
+<button onclick="clickme()">Click</button>
+<script>
+function clickme()
+{
+var result="<?php php_func(); ?>"
+document.write(result);
+}
+</script>
+
+
+
+</body>
+</html>
